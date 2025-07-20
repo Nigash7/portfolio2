@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery and Popper.js for Bootstrap 4 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+
+
+
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotating-div {
+            width: 370px;
+            height: 370px;
+            background-color: rgb(241, 245, 245);
+            border-radius: 500px 500px 400px 600px;
+            animation: spin 10s linear infinite;
+            position: absolute;
+            /* left: 260px; */
+
+
+        }
+
+
+        .floating-image {
+            animation: float 3s ease-in-out infinite;
+            /* Apply the animation */
+            position: relative;
+            /* Needed for transform property */
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+                /* Start position (no vertical movement) */
+            }
+
+            50% {
+                transform: translateY(-20px);
+                /* Move 20 pixels up */
+            }
+
+            100% {
+                transform: translateY(0);
+                /* Return to original position */
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" id="Home"
+        style=" width: 100%; height:180%;  display: flex; justify-content: center; align-items: center;">
+
+
+        <div class="row">
+            <div class="col-12 col-md-6 "
+                style=" display: flex;flex-direction: column; justify-content: center; align-items: center;margin-top: 100px;overflow: hidden; ">
+                <div class="rotating-div"></div>
+                <div class="col-10 col-md-8 ">
+                    <h1>Hi <br> I'am <span style="color: rgb(0, 162, 255);">Nigash.R</span> <br>Full stack web developer
+                    </h1>
+                    <p>To Enhance my professional skills, capabilities and knowledge in an organization which recognize
+                        the
+                        value of hard work and trusts me with responsibilities and challenges</p>
+                    <button
+                        style="width: 150px; height: 40px;border: none; background-color:rgb(0, 162, 255);;margin-top: 10px; border-radius: 20px; box-shadow: none; "
+                        class="but ">
+                        <a style=" color: black; text-decoration: none; " target="_blank"
+                            href="https://drive.google.com/file/d/1B7X08OZvctt9tMoyl5qXmDckKfIr4YM8/view">
+                            <h4> Resume</h4>
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 text-center"
+                style=" display: flex; justify-content: center;margin-top: 100px; ">
+                <div class="col-10 col-lg-8 text-center"
+                    style="width: 400px;  height: 400px; background-color: rgb(5, 5, 5);border-radius: 116px 33px 116px 33px;  ;overflow: hidden;  ">
+                    <img style="width: 500px;margin-left: -100px;" src="WhatsApp Image 2025-07-15 at 10.42.51 AM.jpeg"
+                        alt="photo">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row" style=" margin-top: 20px; letter-spacing: 25px; background-color: aliceblue; padding: 5px;">
+        <div class="col text-center">
+            <a href="mailto:nigash6385@gmail.com"><img width="48" height="60" src="gmail.png" alt="instagram-new" /></a>
+            <a
+                href="https://www.linkedin.com/in/nigash-r-177201268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img width="48" height="48" src="linkedin.png" alt="linkedin--v2" /></a>
+            <a href="https://github.com/Nigash7"><img width="48" height="48" src="github.png" alt="github--v1" /></a>
+            <a href="https://www.instagram.com/nigash.r_7?igsh=djhpaWxxcjlxcmRu"><img width="48" height="48"
+                    src="instagram.png" alt="instagram-new" /></a>
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <hr>
+<section id="About">
+    <h3 class="col-12" style="margin-left: 20px;  " id="About">About Me <img style="width: 40px;" src="info.png"
+            alt="about me"> </h3></section>
+    <div class="row">
+        <div class="col-12 col-md-4 text-center"><img width="300px" height="300px" src="image.png" alt=""
+                class="floating-image " style="border-radius: 300px 300px; margin-top: 20px; "></div>
+        <div class="col-12 col-md-8 p-3 " style="margin-top: 20px; display: flex;">
+            <p style="padding: 20px; font-weight: 500; ">
+                <span style="font-size: xx-large;color: rgb(0, 162, 255);"> I' am</span> Nigash R, a recent graduate in
+                Electrical and Electronics Engineering (B.E., 2024) from Rohini
+                College of Engineering and Technology, Kanyakumari. As a first-generation graduate, I take immense pride
+                in my journey and the dedication that brought me here. <br>
+
+                With a strong interest in website and software development, I have built a solid foundation in
+                technologies such as HTML, CSS, JavaScript, Python, React, Django, and MySQL. I am also proficient in
+                tools like VS Code and Sublime Text. <br>
+
+                Though I am a fresher, I am known for my creative problem-solving skills and strong passion for building
+                user-friendly digital experiences. I am constantly learning and evolving, and I look forward to
+                contributing meaningfully to the tech industry.
+            </p>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+<section id="Skill">
+    <h3 class="col-12" style="margin-left: 24px;" >Skills <img style="width: 50px;" src="skill.png"
+            alt="about me"> </h3></section>
+    <div class="row " style="margin-left:10px; margin-right:10px ">
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center; margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="python.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Python</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="js.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">JavaScript</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="html.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">HTML</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="text.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">CSS</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="mysql.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Mysql</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="social.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">github</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="django.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Django</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="bootstrap.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Bootstrap</h4>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="card text-start"
+                style=" display: flex;justify-content: center; align-items: center;margin-top:20px;">
+                <img class="card-img-top" style="width: 80px; margin-top: 30px;" src="physics.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">React</h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <section id="project">
+        <div class="col" style="margin-left: 24px;  ">
+            <h3 style="display: inline;">Project</h3><img src="closure.png" alt="" width="50px">
+        </div>
+    </section>
+    <div class="row p-3">
+
+        <div class="col-6 col-md-3  p-0 " style="margin-top: 10px;"> <button type="button" class="btn col-10 p-0"
+                data-toggle="modal" data-target="#staticBackdrop" style="box-shadow: none;">
+                <div class="col">
+                    <div class="card text-center p-0 "
+                        style="display: flex; justify-content: center; align-items: center; ">
+                        <img style="width: 80px; padding: 10px; " class="card-img-top" src="pr1.png" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">HTML</h4>
+                            <p class="card-text"> </p>
+                        </div>
+                    </div>
+            </button></div>
+
+        <div class="col-6 col-md-3 p-0" style="margin-top: 10px;"> <button type="button" class="btn col-10 p-0"
+                data-toggle="modal" data-target="#AstaticBackdrop" style="box-shadow: none;">
+                <div class="col">
+                    <div class="card text-center p-0 "
+                        style="display: flex; justify-content: center; align-items: center; ">
+                        <img style="width: 80px; padding: 10px; " class="card-img-top" src="pr2.png" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">CSS</h4>
+                            <p class="card-text"> </p>
+                        </div>
+                    </div>
+            </button></div>
+
+        <div class="col-6 col-md-3 p-0" style="margin-top: 10px;">
+
+            <button type="button" class="btn col-10 p-0" data-toggle="modal" data-target="#BstaticBackdrop"
+                style="box-shadow: none;">
+                <div class="col">
+                    <div class="card text-center p-0 "
+                        style="display: flex; justify-content: center; align-items: center; ">
+                        <img style="width: 80px; padding: 10px; " class="card-img-top" src="three.png" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title">Bootstrap</h4>
+                            <p class="card-text"> </p>
+                        </div>
+                    </div>
+            </button>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- ___________________________________________________________________________________________________________________________________________ -->
+
+
+    <!-- Modal Wrapper -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <!-- Long content here -->
+                    <h4>This is project make in mashupstack HTML exam time </h4>
+                    <p>only html skeleton </p>
+                    <h6>skill: HTML</h6>
+                    <a href=" https://nigash7.github.io/html_1_project/" target="_blank"> To view this page</a>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 2project modal -->
+    <div class="modal fade" id="AstaticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="2staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <!-- Long content here -->
+                    <h4>This is project make in mashupstack CSS exam time </h4>
+                    <p>It has HTML and CSS </p>
+                    <h6>skill: HTML,CSS</h6>
+                    <a href=" https://nigash7.github.io/css_project/" target="_blank"> To view this page</a>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 3Project-bootstrap   -->
+    <div class="modal fade" id="BstaticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="2staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <!-- Long content here -->
+                    <h4>This is project make in mashupstack Bootstrap exam time </h4>
+                    <p>this is responsive page and top right ( logged in as Username) have a login form view that
+                        also.it not have single line of css it is the task given in mashupstack </p>
+
+
+                    <p>It has HTML and Bootstrap frame work </p>
+                    <h6>skill: HTML,BOOTSTRAP</h6>
+                    <a href="  https://nigash7.github.io/bootstrap_project/" target="_blank"> To view this page</a>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <div class="col" style="width: 100vw; height: 200px; background-color: rgba(98, 201, 249, 0.544); ">
+        <footer>
+            <div class="footer-nav">
+                <a href="#Home">Home</a> |
+                <a href="#About">About</a> |
+                <a href="#Skill">skill</a> |
+                <a href="#project">project</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: nigash6385@gmail.com</p>
+                <p>Phone: +91 6385498496</p>
+            </div>
+
+
+
+            <div class="footer-copy">
+                <p>© 2025 portfolio. created by Nigash.R</p>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
